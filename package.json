@@ -1,7 +1,7 @@
 {
   "name": "gremlins",
   "displayName": "Gremlins tracker for VSCodium (and Visual Studio Code)",
-  "version": "0.26.0",
+  "version": "0.26.1",
   "publisher": "naterkane",
   "author": {
     "name": "Nicolas Hoizey",
