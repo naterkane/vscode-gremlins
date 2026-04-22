@@ -34,4 +34,4 @@ If a maintainer asks you to "rebase" your PR, they're saying that a lot of code 
     * Be sure you have followed the code style for the project
     * Send a pull request
 
-If you find a security vulnerability, do NOT open an issue. Email <nicolas@hoizey.com> instead.
+If you find a security vulnerability, do NOT open an issue. Email <naterkane@duck.com> instead.
