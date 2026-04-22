@@ -118,7 +118,8 @@ beforeEach(() => {
   jest.clearAllMocks()
 
   const characters = configDefinition.properties['gremlins.characters'].default
-  const gutterIconSize = configDefinition.properties['gremlins.gutterIconSize'].default
+  const gutterIconSize =
+    configDefinition.properties['gremlins.gutterIconSize'].default
   const showInProblemPane = true
 
   mockConfiguration = {
@@ -457,13 +458,14 @@ describe('configuration', () => {
       // When overriding level to 'none'
       mockSetDecorations.mockClear()
       mockConfiguration.characters['200b'].level = 'none'
-      const configChangeHandler = mockVscode.workspace.onDidChangeConfiguration.mock.calls[0][0]
-      configChangeHandler({ affectsConfiguration: () => true})
+      const configChangeHandler =
+        mockVscode.workspace.onDidChangeConfiguration.mock.calls[0][0]
+      configChangeHandler({ affectsConfiguration: () => true })
 
       // Decoration is no longer displayed
       expect(mockSetDecorations.mock.calls).toMatchSnapshot()
     })
-    
+
     it('setting level to none prevents decoration from being displayed', () => {
       // Default is to create diagnostic
       mockDocument.text = 'zero width space \u200b'
@@ -473,8 +475,9 @@ describe('configuration', () => {
       // When overriding level to 'none'
       mockSetDecorations.mockClear()
       mockConfiguration.characters['200b'].level = 'none'
-      const configChangeHandler = mockVscode.workspace.onDidChangeConfiguration.mock.calls[0][0]
-      configChangeHandler({ affectsConfiguration: () => true})
+      const configChangeHandler =
+        mockVscode.workspace.onDidChangeConfiguration.mock.calls[0][0]
+      configChangeHandler({ affectsConfiguration: () => true })
 
       // Diagnostic is no longer created
       expect(mockSetDiagnostics.mock.calls).toMatchSnapshot()

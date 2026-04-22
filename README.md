@@ -1,11 +1,11 @@
-# Gremlins tracker for Visual Studio Code
+# Gremlins tracker for VSCodium (or Visual Studio Code)
 
-[![GitHub package version](https://img.shields.io/github/package-json/v/nhoizey/vscode-gremlins.svg?style=for-the-badge&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
-[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/nhoizey.gremlins.svg?style=for-the-badge&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
-[![GitHub stars](https://img.shields.io/github/stars/nhoizey/vscode-gremlins.svg?style=for-the-badge&logo=github)](https://github.com/nhoizey/vscode-gremlins/stargazers)
-[![Follow @nhoizey@mamot.fr](https://img.shields.io/mastodon/follow/000262395?domain=https%3A%2F%2Fmamot.fr&style=for-the-badge&logo=mastodon&logoColor=white&color=6364FF)](https://mamot.fr/@nhoizey)
+[![GitHub package version](https://img.shields.io/github/package-json/v/naterkane/vscode-gremlins.svg?style=for-the-badge&logo=vscodium)](https://github.com/naterkane/vscode-gremlins)
+<!--[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/nhoizey.gremlins.svg?style=for-the-badge&logo=vscodium)](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins) -->
+[![GitHub stars](https://img.shields.io/github/stars/naterkane/vscode-gremlins.svg?style=for-the-badge&logo=github)](https://github.com/naterkane/vscode-gremlins/stargazers)
 
-This [Visual Studio Code](https://code.visualstudio.com/) extension reveals some characters that can be harmful because they are invisible or looking like legitimate ones.
+
+This [VSCodium](https://vscodium.com/) estension is a fork of the [Visual Studio Code](https://code.visualstudio.com/) extension [VSCode Gremlins](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins) that was abandoned after its last update on 11/5/2020, This extension reveals some characters that can be harmful because they are invisible or looking like legitimate ones.
 
 ## Features
 
@@ -128,7 +128,7 @@ If you want to display end-of-line characters, you can use the [Render Line Endi
 
 VS Code Gremlins was initialy heavily inspired by [Sublime Gremlins](https://packagecontrol.io/packages/Gremlins), a [Sublime Text](https://www.sublimetext.com/) 3 plugin to help identify invisible and ambiguous Unicode whitespace characters (zero width spaces, no-break spaces, and similar.).
 
-I later discovered the “Gremlins” name had already been used a long time before, in some editors:
+Nicolas later discovered the “Gremlins” name had already been used a long time before, in some editors:
 
 [Bare Bones Software](http://www.barebones.com/)'s famous [BBEdit](http://www.barebones.com/products/bbedit/) HTML and text editor for macOS has a “Zap Gremlins” feature since [its first public release April 12th, 1992](https://groups.google.com/forum/#!topic/comp.sys.mac.announce/gvPGyuX3UCs)!
 
@@ -143,3 +143,5 @@ It looks like people liked this feature so much that they made [a dedicated webs
 ## License
 
 MIT
+
+Huge thanks to Nicolas Hoizey and other contributors for conceiving of and developing this extention. 

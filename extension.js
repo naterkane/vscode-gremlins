@@ -43,6 +43,7 @@ function configureDiagnosticsCollection(showDiagnostics) {
 }
 
 function disposeDecorationTypes() {
+  // eslint-disable-next-line no-unused-vars
   Object.entries(decorationTypes).forEach(([key, decorationType]) => {
     decorationType.dispose()
   })
@@ -311,6 +312,7 @@ function activate(context) {
 
   eventListeners.push(
     vscode.workspace.onDidChangeTextDocument(
+      // eslint-disable-next-line no-unused-vars
       (_event) => checkForGremlins(vscode.window.activeTextEditor),
       null,
       context.subscriptions,
